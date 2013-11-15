@@ -9,6 +9,7 @@
 
 	print_r ($array_original);
 
+	//Criando array para busca
 	$array_original = array(0=> 'laranja', 1=> 'amora', 2=> 'jaca', 3=> 'tamarindo',4=> 'tangerina');
 
 	$buscar = 'tangerina';
