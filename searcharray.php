@@ -1,5 +1,7 @@
+
 <?php
 
+	//Deixando como padrão o UTF-8
 	header('Content-Type: text/html; charset=utf-8'); 
 
 	echo '<h1>Testando função array_search()</h1>';
@@ -17,9 +19,6 @@
 	$resultado = array_search ($buscar, $array_original);
 	
 	echo '<p>Conferindo o valor da key '.$resultado.'</p>';
-	echo '<p>Valor da key acima: '.$array_original[$resultado].'<p/>';	
-
-
- 
+	echo '<p>Valor da key acima: '.$array_original[$resultado].'<p/>';
 
 ?>
